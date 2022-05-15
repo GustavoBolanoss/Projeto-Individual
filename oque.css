@@ -1,0 +1,60 @@
+ .bk{
+    background-image: url(https://images.alphacoders.com/265/thumb-1920-265693.png) ;
+    background-size: cover;
+    height: 630px;
+    display: flex;
+}
+
+
+.caixa1{
+    display: flex;
+    background-color: #353b41;
+    border-radius: 50px;
+    width: 300px;
+    height: 350px;
+    margin-top: 195px;
+    margin-left: 10px;
+}
+.caixa1:hover{
+    transform: scale(1.05)
+}
+.texto1{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: 45px;
+}
+
+.caixa2{
+    display: flex;
+    background-color: #353b41;
+    border-radius: 50px;
+    width: 300px;
+    height: 350px;
+    margin-top: 195px;
+    margin-left: 214px;
+}
+.caixa2:hover{
+    transform: scale(1.05)
+}
+.caixa3{
+    display: flex;
+    background-color: #353b41;
+    border-radius: 50px;
+    width: 300px;
+    height: 350px;
+    margin-top: 195px;
+    margin-left: 80px;
+}
+.caixa3:hover{
+    transform: scale(1.05)
+}
+ .txtcentro{
+   display: flex;
+    color: white;
+    margin-left: 397px;
+    width: 800px;
+    height: 10px;
+ }
