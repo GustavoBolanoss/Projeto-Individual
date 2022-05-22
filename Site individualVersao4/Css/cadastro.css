@@ -1,0 +1,20 @@
+.bk{
+    display: flex;
+    background-image: url(112568.jpg);
+    height: 100vh;
+    align-items: center;
+}
+.containerCaixa{
+    display: flex;
+    margin-left: 10px;
+}
+.caixa{
+display: flex;
+flex-direction: column;
+height: 550px;
+width: 400px;
+border-radius: 35px;
+background: #4d3d3d;
+box-shadow: inset -35px 35px 70px #372b2b,
+inset 35px -35px 70px #634f4f;
+}
