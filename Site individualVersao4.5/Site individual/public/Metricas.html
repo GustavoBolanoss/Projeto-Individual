@@ -63,7 +63,7 @@
             <div class="texto">Insira a quantidade das feitiços abaixo:</div>
             <input id="feitiço" class="ipt" type="text">
 
-
+<div id="div_Msg">aaa</div>
             <button onclick="cadastrar()" class="bt">Cadastrar deck</button>
             <button onclick="analise()" class="bt">Analisar deck</button>
             <div class="texto">Informe o numero do deck que você quer Analisar:</div>
@@ -190,10 +190,13 @@
                 sessionStorage.json = JSON.stringify(res);
                 
             });
-               res = JSON.parse(sessionStorage.json)
-            console.log("Aqui ta retornando viado", res.cor);
+            res = JSON.parse(sessionStorage.json)
+         
             var land = Number(res.qtdLands)
-            alert(land)
+            var artefato = Number(res.qtdArtefatos)
+        div_Msg.innerHTML = `Quantidade de lands ${land} <br> quantidade de artefatos ${artefato}`
+            alert(`QTD artefato ${artefato}`)
+            alert(`qtd lands ${land}`)
             // if (resposta.ok) {
             //     alert("Deck cadastrado com sucesso")
             //     // cardErro.style.display = "block";
